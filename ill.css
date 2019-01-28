@@ -1,0 +1,106 @@
+body {
+    background-image: url(img/aw.jpg);
+    background-size: cover;
+}
+
+nav{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    background: rgba(255, 255, 255, 0.822);
+    background-size: cover;
+}
+nav ul{
+    position: relative;
+    top: 20px;
+    margin: 0;
+    float: right;
+    right: 10%;
+}
+nav ul li{
+    float: left;
+    display: block;
+    margin: 0px 15px 0px 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+}
+nav ul li a:hover{
+    color: rgb(0, 47, 255);
+}
+.menu-mobile{
+    position: relative;
+    float: right;
+    display: none;
+}
+.menu-mobile a{
+    color: #888;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #888;
+}
+
+#se {
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #ffffff, 0 0 20px rgba(208, 255, 0, 0.692), 0 0 30px rgba(0,0,0,.5), 0 0 40px;
+}
+
+.sick {
+    color: rgba(208, 255, 0, 0.692);
+    border: 2px solid #ffffff;
+    font-size: 20px;
+}
+.sick:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+.ill {
+    color: rgba(208, 255, 0, 0.692);
+    border: 2px solid #ffffff;
+    font-size: 20px;
+}
+.ill:hover {
+    background-color: rgba(0,0,0,.5);
+}
+
+.button{
+    position: relative;
+    padding: 8px 12px 8px 12px;
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 8px;
+    border-radius: 3px;
+  }
+
+#container {
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    padding: 50px;
+    position: relative;
+    background: rgba(0,0,0,.5);
+}
+#container:after {
+    content: '';
+    background: url('img/aw.jpg');
+    background-size: cover;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+.why {
+    text-align: center;
+  }

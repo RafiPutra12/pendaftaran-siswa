@@ -1,0 +1,49 @@
+body {
+    background-image: url(img/want.jpg);
+    background-size: cover;
+}
+p {
+    color: aliceblue;
+}
+h2 {
+    font-size: 19px;
+    color: aliceblue;
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+
+#it {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 380px;
+    height: 420px;
+    padding: 80px 40px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,.5);
+}
+#its {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: calc(-100px/2);
+    left: calc(50% - 50px);
+}
+#it input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 30px;
+    color: #fff;
+    font-size: 18px;
+    background: #5f5dd68c;
+    cursor: pointer;
+}
+#it input[type="submit"]:hover{
+    background: rgba(0,0,0,.5);
+    color: #ffffff;
+}
